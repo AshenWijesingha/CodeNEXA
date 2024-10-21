@@ -11,7 +11,7 @@ const AchievementsSection = () => {
         <div className="flex justify-center">
           <div className="text-center">
             <img
-              src="./Images/ach/award.png"
+              src="https://ieee-uemcon.org/wp-content/uploads/2023/04/The-11th-Annual-IEEE-Information-Technology-Electronics-and-Mobile-Communication-Conference-2-3-2048x316.jpg"
               alt="Award"
               className="w-4/5 mx-auto"
             />
@@ -21,10 +21,8 @@ const AchievementsSection = () => {
         <div className="mt-8">
           <p className="text-2xl text-gray-700 leading-relaxed">
             We were selected as finalists to represent Sri Lanka Institute of
-            Information Technology at the National Best Quality ICT Awards 2021
-            and E-Swabhumani 2021. Furthermore, we have been selected as
-            national nominees to represent Sri Lanka in the WSA (World Summit
-            Award) and WSA Youth in 2021.
+            Information Technology at the Une IEEE Unicon Awards 2024
+            and ICAC 2024.
           </p>
         </div>
       </div>

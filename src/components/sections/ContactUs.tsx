@@ -87,13 +87,13 @@ const ContactSection = () => {
                     href="mailto:researchcoco@gmail.com"
                     className="text-blue-500 hover:underline"
                   >
-                    codenexa@gmail.com
+                    project.alvi@gmail.com
                   </a>
                 </p>
                 <p className="text-xl text-gray-700">
                   Hope this project helped you in some manner. Thank you!
                 </p>
-                <p className="text-xl font-semibold text-gray-800 mt-4">- Team CodeNEXA 👾</p>
+                <p className="text-xl font-semibold text-gray-800 mt-4">- Project ALVI Team 👾</p>
               </div>
             </div>
           </div>
