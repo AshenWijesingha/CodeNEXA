@@ -1,4 +1,3 @@
-imort React from 'react';
 import './App.css';
 import Abstract from './components/sections/Abstract';
 // import Acknowledgement from './components/sections/Acknowledgement';
