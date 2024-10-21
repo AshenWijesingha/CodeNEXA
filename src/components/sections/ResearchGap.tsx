@@ -23,6 +23,19 @@ const ResearchGap = () => {
               privacy, making it crucial to develop secure, scalable, and
               interpretable solutions.
             </p>
+            <div className="mt-4">
+              <video
+                autoPlay
+                loop
+                muted
+                playsInline
+                className="mx-auto portrait-video"
+                style={{ width: "300px", height: "auto" }}
+              >
+              <source src="/assets/videos/HackCNN.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+              </video>
+            </div>
           </div>
 
           <div className="">
