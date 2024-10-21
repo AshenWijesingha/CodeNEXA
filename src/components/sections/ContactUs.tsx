@@ -10,12 +10,12 @@ const ContactSection = () => {
       </span>
         <div className="sub-section">
             <br />
-          <h2 className="text-4xl font-bold text-gray-900 mb-6">Get in Touch</h2>
+          {/* <h2 className="text-4xl font-bold text-gray-900 mb-6">Get in Touch</h2> */}
           <div className="flex flex-col md:flex-row mt-8">
             {/* Contact Form */}
             <div className="md:w-1/2 w-full px-4 mb-8 md:mb-0 text-2xl">
               <form
-                action="MAILTO:researchcoco@gmail.com"
+                action="MAILTO: project.alvi@gmail.com"
                 method="POST"
                 className="space-y-6"
               >
