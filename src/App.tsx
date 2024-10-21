@@ -15,6 +15,7 @@ import DocumentList from './components/sections/Documents';
 import TeamSection from './components/sections/TeamSection';
 import TechnologiesUsed from './components/sections/Technologies';
 import Timeline from './components/sections/Timeline';
+import Footer from './components/sections/footer';
 
 import Navbar from './components/ui-component/NavBar';
 import ScrollingText from './components/ui-component/ScrollingText';
@@ -61,6 +62,7 @@ function App() {
       <br />
       <ContactUs />
       <br />
+      <Footer />
       </>
   );
 }
