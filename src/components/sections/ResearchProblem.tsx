@@ -8,7 +8,7 @@ const ResearchProblem = () => {
       color={["#A07CFE", "#FE8FB5", "#FFBE7B"]}
     > */}
 
-      <span className="pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300/80 bg-clip-text text-center text-8xl font-semibold leading-none text-transparent dark:from-white dark:to-slate-900/10">
+      <span className="pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300/80 bg-clip-text text-center text-4xl sm:text-6xl md:text-8xl font-semibold leading-none text-transparent dark:from-white dark:to-slate-900/10">
         Research Objectives
       </span>
       <br /><br />
