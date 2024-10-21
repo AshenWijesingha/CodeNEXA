@@ -39,8 +39,8 @@ const teamMembers = [
   },
   {
     name: "Dr. Kanishka Yapa",
-    role: "Supervisor",
-    university: "University Name",
+    role: "Supervisor | Lecturer",
+    university: "Sri Lanka Institute of Information Technology",
     department: "Department Name",
     image: "/assets/team/5.png",
     linkedin: "https://www.linkedin.com/in/kanishka-yapa-46590924/",
@@ -48,18 +48,18 @@ const teamMembers = [
   },
   {
     name: "Mr. Samadhi Rathnayake",
-    role: "Co-Supervisor",
-    university: "University Name",
+    role: "Co-Supervisor | Lecturer",
+    university: "Sri Lanka Institute of Information Technology",
     department: "Department Name",
     image: "/assets/team/6.png",
     linkedin: "https://www.linkedin.com/in/samadhi-chathuranga-rathnayake/",
     email: "samadhi.mathematica@gmail.com"
   },
   {
-    name: "Kasun Karunarathne",
+    name: "Dr. Kasun Karunarathne",
     role: "External Supervisor",
-    university: "Oracle Consultant",
-    department: "Eguardian",
+    university: "PhD from the University of Colombo | MSc from the University of Moratuwa",
+    department: "Specializes in Technology Strategy and Cybersecurity",
     image: "/assets/team/7.png",
     linkedin: "https://www.linkedin.com/in/kasun-karunarathne/",
     email: "kasunsaranga@gmail.com"
