@@ -6,7 +6,7 @@ const teamMembers = [
     role: "Team Leader",
     university: "Sri Lanka Institute of Information Technology",
     department: "Information Systems Engineering",
-    image: "src/assets/team/1.png",
+    image: "/assets/team/1.png",
     linkedin: "https://www.linkedin.com/in/livindu-peiris-75247521b/",
     email: "livindupeiris@gmail.com"
   },
@@ -15,7 +15,7 @@ const teamMembers = [
     role: "Team Member",
     university: "Sri Lanka Institute of Information Technology",
     department: "Information Systems Engineering",
-    image: "src/assets/team/2.png",
+    image: "/assets/team/2.png",
     linkedin: "https://www.linkedin.com/in/aman-shaluka-009539244/",
     email: "amanshaluka1@gmail.com"
   },
@@ -24,7 +24,7 @@ const teamMembers = [
     role: "Team Member",
     university: "Sri Lanka Institute of Information Technology",
     department: "Information Systems Engineering",
-    image: "src/assets/team/3.png",
+    image: "/assets/team/3.png",
     linkedin: "https://www.linkedin.com/in/virushan-hasaranga-student-sliit/",
     email: "hasarangavirushan@gmail.com"
   },
@@ -33,7 +33,7 @@ const teamMembers = [
     role: "Team Member",
     university: "Sri Lanka Institute of Information Technology",
     department: "Information Systems Engineering",
-    image: "src/assets/team/4.png",
+    image: "/assets/team/4.png",
     linkedin: "https://www.linkedin.com/in/imanathauda/",
     email: "renushabandara@gmail.com"
   },
@@ -42,7 +42,7 @@ const teamMembers = [
     role: "Supervisor",
     university: "University Name",
     department: "Department Name",
-    image: "src/assets/team/5.png",
+    image: "/assets/team/5.png",
     linkedin: "https://www.linkedin.com/in/kanishka-yapa-46590924/",
     email: "kanishka.yapa@gmail.com"
   },
@@ -51,7 +51,7 @@ const teamMembers = [
     role: "Co-Supervisor",
     university: "University Name",
     department: "Department Name",
-    image: "src/assets/team/6.png",
+    image: "/assets/team/6.png",
     linkedin: "https://www.linkedin.com/in/samadhi-chathuranga-rathnayake/",
     email: "samadhi.mathematica@gmail.com"
   },
@@ -60,7 +60,7 @@ const teamMembers = [
     role: "External Supervisor",
     university: "Oracle Consultant",
     department: "Eguardian",
-    image: "src/assets/team/7.png",
+    image: "/assets/team/7.png",
     linkedin: "https://www.linkedin.com/in/kasun-karunarathne/",
     email: "kasunsaranga@gmail.com"
   }

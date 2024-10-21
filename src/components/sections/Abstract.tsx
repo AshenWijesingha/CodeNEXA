@@ -22,7 +22,7 @@ const Abstract = () => (
         Federated Learning (FL) facilitates decentralized model training across various clients while safeguarding data privacy, but it poses significant security risks, such as backdoor attacks, poisoning attacks, Man-in-the-Middle (MITM) attacks, and label inference attacks. This research introduces a security framework with four core components, each tailored to mitigate specific threats in FL environments.
       </p>
       <img
-        src="src/assets/images/1.png"
+        src="/assets/images/1.png"
         alt="Federated Learning"
         className="w-full lg:w-1/3 rounded-lg shadow-lg lg:ml-8 mt-6 lg:mt-0"
       />
@@ -33,7 +33,7 @@ const Abstract = () => (
         HydraGuard is a hybrid defense against backdoor attacks, combining Trigger Inversion and Simple Tuning methods. Trigger Inversion identifies potential backdoor triggers by reconstructing patterns from model gradients, while Simple Tuning adjusts specific layers of the model to neutralize these threats. This dual approach reduces backdoor attack success rates while maintaining model accuracy.
       </p>
       <img
-        src="src/assets/images/2.png"
+        src="/assets/images/2.png"
         alt="HydraGuard Defense"
         className="w-full lg:w-1/3 rounded-lg shadow-lg lg:ml-8 mt-6 lg:mt-0"
       />
@@ -48,7 +48,7 @@ const Abstract = () => (
         contribute to the model.
       </p>
       <img
-        src="src/assets/images/3.png"
+        src="/assets/images/3.png"
         alt="SECUNID Framework"
         className="w-full lg:w-1/3 rounded-lg shadow-lg lg:ml-8 mt-6 lg:mt-0"
       />
@@ -62,7 +62,7 @@ const Abstract = () => (
         communication.
       </p>
       <img
-        src="src/assets/images/4.png"
+        src="/assets/images/4.png"
         alt="CodeNexa Security"
         className="w-full lg:w-1/3 rounded-lg shadow-lg lg:ml-8 mt-6 lg:mt-0"
       />
@@ -77,7 +77,7 @@ const Abstract = () => (
         label inference.
       </p>
       <img
-        src="src/assets/images/5.png"
+        src="/assets/images/5.png"
         alt="SHIELD Protection"
         className="w-full lg:w-1/3 rounded-lg shadow-lg lg:ml-8 mt-6 lg:mt-0"
       />
