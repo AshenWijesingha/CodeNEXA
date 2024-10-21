@@ -25,6 +25,7 @@ const ResearchGap = () => {
             </p>
             <div className="mt-4">
               <video
+                controls
                 autoPlay
                 loop
                 muted
