@@ -73,16 +73,16 @@ const IntroductionSection = () => {
       </span>
       
       <br /><br />
-      <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 text-center mb-8">
-          
+      <div className="max-w-6xl mx-auto p-4">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 text-center mb-4 md:mb-8">
+          {/* Your heading text */}
         </h2>
         <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-          <div className="flex border-b">
+          <div className="flex flex-wrap border-b">
             {tabs.map((tab) => (
               <button
                 key={tab.id}
-                className={`flex-1 py-4 px-6 text-2xl font-medium ${
+                className={`flex-1 py-2 sm:py-3 md:py-4 px-4 sm:px-5 md:px-6 text-lg sm:text-xl md:text-2xl font-medium transition-colors duration-300 ${
                   activeTab === tab.id
                     ? 'bg-blue-500 text-white'
                     : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
@@ -93,7 +93,7 @@ const IntroductionSection = () => {
               </button>
             ))}
           </div>
-          <div className="p-6 w-[800px]">{content[activeTab]}</div>
+          <div className="p-4 sm:p-5 md:p-6 w-full md:w-[800px]">{content[activeTab]}</div>
           <br />
         </div>
         <br />
