@@ -1,0 +1,36 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "exclude": [
+    "node_modules",
+    "src/components/ui/animated-list.tsx",
+    "src/components/ui/blur-fade.tsx",
+    "src/components/ui/button.tsx",
+    "src/components/ui/dock.tsx",
+    "src/components/ui/fade-text.tsx",
+    "src/components/ui/flip-tree.tsx",
+    "src/components/ui/flickering-grid.tsx",
+    "src/components/ui/globe.tsx",
+    "src/components/ui/gradual-spacing.tsx",
+    "src/components/ui/hyper-text.tsx",
+    "src/components/ui/icon-cloud.tsx",
+    "src/components/ui/magic-card.tsx",
+    "src/components/ui/number-ticker.tsx",
+    "src/components/ui/orbiting-circles.tsx",
+    "src/components/ui/safari.tsx",
+    "src/components/ui/shine-border.tsx",
+    "src/components/ui/text-reveal.tsx",
+    "src/components/ui/typing-animation.tsx"
+  ],
+   "compilerOptions": {
+    "baseUrl": ".",
+    "strict": false,
+    "noImplicitAny": false,
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+}
