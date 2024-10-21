@@ -50,7 +50,7 @@ const AcknowledgementSection = () => {
       <br /><br />
         
         <p className="text-lg md:text-xl text-gray-600 text-center mb-12 max-w-3xl mx-auto">
-          We would like to express our heartfelt gratitude to our supervisors for their guidance and support throughout this project.
+          The proposed security framework comprises four sub-components, each designed to address specific security threats in Federated Learning.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {supervisors.map((supervisor, index) => (
