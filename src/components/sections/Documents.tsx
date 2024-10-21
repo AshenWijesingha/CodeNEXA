@@ -2,72 +2,65 @@ import { FileText } from 'lucide-react';
 
 const downloadsData = [
   {
-    title: 'Topic Assessment',
-    date: '2021/02/25',
+    title: 'Project Proposal Individual',
+    date: '2024/02/29',
     links: [
-      { label: 'Group', url: 'https://drive.google.com/file/d/1bb3MVFdUKWKnGOANRusNcVfQWPL25bHi/view?usp=sharing' },
+      { label: 'Individual', url: 'https://drive.google.com/drive/folders/1DfyLbvl72oswMMGyzFobqMxO26ZhHJfJ?usp=sharing' },
     ],
   },
   {
-    title: 'Project Charter',
-    date: '2021/02/25',
+    title: '2. Status Document 1',
+    date: '2021/05/06',
     links: [
-      { label: 'Group', url: 'https://drive.google.com/file/d/1SkZ36rNGmUOqeJ2POyQYl_jagM2NrtV_/view?usp=sharing' },
+      { label: 'Individual', url: 'https://drive.google.com/drive/folders/10L-StNyOQFzgzoxbJcgK4P8cwW_qC5H1?usp=sharing' },
     ],
   },
   {
-    title: 'Project Proposal',
-    date: '2021/03/22',
+    title: 'Research Paper',
+    date: '2024/06/14',
     links: [
-      { label: 'Individual', url: 'https://drive.google.com/drive/folders/1BrImoJHubeT48b5ifj8dLV_JIrXky5Wo?usp=sharing' },
+      { label: 'Group', url: 'https://drive.google.com/file/d/1y_nauLE96H2KAQNHYfpmC_y0kKY1pOH-/view?usp=sharing' },
     ],
   },
   {
-    title: 'Status Documents I',
-    date: '2021/07/05',
+    title: 'Final Report',
+    date: '2024/08/23',
     links: [
-      { label: 'Individual', url: 'https://drive.google.com/file/d/1mHeXVzJ6FxU8snM32FKT8zj_tnI4Octn/view?usp=sharing' },
+      { label: 'Individual', url: 'https://drive.google.com/drive/folders/1MtQkF-4tJbU6VHTTp6ar7Mlcm8TA5Rd8?usp=sharing' },
     ],
   },
   {
-    title: 'Status Documents II',
-    date: 'Yet to be submitted, link will be updated soon.',
+    title: 'Status Documents 2',
+    date: '2024/09/12',
     links: [
-      { label: 'Individual', url: 'https://drive.google.com/drive/folders/1Sy3KKNr3sNIyEIZkXSSjQQ9TDXAoZN24?usp=sharing' },
+      { label: 'Individual', url: 'https://drive.google.com/drive/folders/1hs2umSsPEXLmbNVgg5Xwe0gIqnzfbqmd?usp=sharing' },
     ],
   },
 ];
 
 const presentationsData = [
   {
-    title: 'Project Proposal',
-    date: '2021/03/14',
+    title: 'Proposal Presentation',
+    date: '2024/02/29',
     links: [
-      { label: 'Group', url: 'https://docs.google.com/presentation/d/1iwkEDXpi3XPNmHHyt3kwsKJ_mwLwe189/edit?usp=sharing&ouid=110826119005364270755&rtpof=true&sd=true' },
+      { label: 'Group', url: 'https://docs.google.com/presentation/d/1axHXJHfMBaNBfoI9x8aucHrjfpB197Gi/edit?usp=sharing&ouid=112929534540738972046&rtpof=true&sd=true' },
     ],
   },
   {
-    title: 'Progress Presentation I',
-    date: '2021/07/08',
+    title: 'Progress Presentation 1',
+    date: '2021/02/25',
     links: [
-      { label: 'Group', url: 'https://docs.google.com/presentation/d/1yqgYxUnWUOKHYTps4OPFHP9TXULljojZ/edit?usp=sharing&ouid=110826119005364270755&rtpof=true&sd=true' },
+      { label: 'Group', url: 'https://docs.google.com/presentation/d/17OwTRtp7yKUQ2_xTu2HpLVUPyVwSTTSw/edit?usp=sharing&ouid=112929534540738972046&rtpof=true&sd=true' },
     ],
   },
   {
-    title: 'Progress Presentation II',
-    date: '2021/10/18',
+    title: 'Progress Presentation 2',
+    date: '2021/03/22',
     links: [
-      { label: 'Group', url: 'https://docs.google.com/presentation/d/1S7m3q_oq1gSP2xm2wiyoJ3-gBXVFcb3K/edit?usp=sharing&ouid=110826119005364270755&rtpof=true&sd=true' },
+      { label: 'Group', url: 'https://docs.google.com/presentation/d/1Ybwb47-MTZLOQxVBFJD28JGFRL2saiTn/edit?usp=sharing&ouid=112929534540738972046&rtpof=true&sd=true' },
     ],
   },
-  {
-    title: 'Final Presentation',
-    date: 'Yet to be submitted, link will be updated soon.',
-    links: [
-      { label: 'Group', url: 'https://drive.google.com/drive/folders/1o2p_otWVavjPy2StceanXwBFqd_w7Yo2?usp=sharing' },
-    ],
-  },
-];
+ ];
 
 // 
 
