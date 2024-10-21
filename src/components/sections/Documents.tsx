@@ -1,7 +1,31 @@
 import { FileText } from 'lucide-react';
 
 const downloadsData = [
+{
+    title: 'Proposal Presentation',
+    date: '2024/02/29',
+    links: [
+      { label: 'Group', url: 'https://docs.google.com/presentation/d/1axHXJHfMBaNBfoI9x8aucHrjfpB197Gi/edit?usp=sharing&ouid=112929534540738972046&rtpof=true&sd=true' },
+    ],
+  },
   {
+    title: 'Progress Presentation 1',
+    date: '2021/02/25',
+    links: [
+      { label: 'Group', url: 'https://docs.google.com/presentation/d/17OwTRtp7yKUQ2_xTu2HpLVUPyVwSTTSw/edit?usp=sharing&ouid=112929534540738972046&rtpof=true&sd=true' },
+    ],
+  },
+  {
+    title: 'Progress Presentation 2',
+    date: '2021/03/22',
+    links: [
+      { label: 'Group', url: 'https://docs.google.com/presentation/d/1Ybwb47-MTZLOQxVBFJD28JGFRL2saiTn/edit?usp=sharing&ouid=112929534540738972046&rtpof=true&sd=true' },
+    ],
+  },
+ ];
+
+const presentationsData = [
+{
     title: 'Project Proposal Individual',
     date: '2024/02/29',
     links: [
@@ -37,30 +61,6 @@ const downloadsData = [
     ],
   },
 ];
-
-const presentationsData = [
-  {
-    title: 'Proposal Presentation',
-    date: '2024/02/29',
-    links: [
-      { label: 'Group', url: 'https://docs.google.com/presentation/d/1axHXJHfMBaNBfoI9x8aucHrjfpB197Gi/edit?usp=sharing&ouid=112929534540738972046&rtpof=true&sd=true' },
-    ],
-  },
-  {
-    title: 'Progress Presentation 1',
-    date: '2021/02/25',
-    links: [
-      { label: 'Group', url: 'https://docs.google.com/presentation/d/17OwTRtp7yKUQ2_xTu2HpLVUPyVwSTTSw/edit?usp=sharing&ouid=112929534540738972046&rtpof=true&sd=true' },
-    ],
-  },
-  {
-    title: 'Progress Presentation 2',
-    date: '2021/03/22',
-    links: [
-      { label: 'Group', url: 'https://docs.google.com/presentation/d/1Ybwb47-MTZLOQxVBFJD28JGFRL2saiTn/edit?usp=sharing&ouid=112929534540738972046&rtpof=true&sd=true' },
-    ],
-  },
- ];
 
 // 
 
