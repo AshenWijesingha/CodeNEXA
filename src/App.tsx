@@ -16,6 +16,7 @@ import TeamSection from './components/sections/TeamSection';
 import TechnologiesUsed from './components/sections/Technologies';
 import Timeline from './components/sections/Timeline';
 
+import HR from './components/ui-component/HorizontalLine';
 import Navbar from './components/ui-component/NavBar';
 import ScrollingText from './components/ui-component/ScrollingText';
 
@@ -30,7 +31,7 @@ function App() {
     <Navbar />
     <br />
     <Hero />
-      <br />
+      <br /><HR /><br />
       <Abstract />
       <br />
       <Introduction />
