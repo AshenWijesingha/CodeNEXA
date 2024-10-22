@@ -26,7 +26,7 @@ const AcknowledgementSection = () => {
     {
       name: "SECUNID",
       role: "Sub Component",
-      description: "Uses visual interpretability tools like <b>LayerCAM</b> to create heatmaps, analyzed by Autoencoders to identify anomalies."
+      description: "Uses visual interpretability tools like LayerCAM to create heatmaps, analyzed by Autoencoders to identify anomalies."
     },
     {
       name: "CodeNexa",
@@ -36,7 +36,7 @@ const AcknowledgementSection = () => {
     {
       name: "SHIELD",
       role: "Sub Component",
-      description: "Secures VFL systems by obfuscating data using **confusional autoencoders** and injecting noise to prevent label inference."
+      description: "Secures VFL systems by obfuscating data using confusional autoencoders and injecting noise to prevent label inference."
     }
   ];
 
