@@ -12,7 +12,7 @@ export default function Navbar() {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center py-4">
           <a className="text-4xl font-bold text-gray-800" href="#home">
-            <img src="/Images/logo/alvi_logo.png" alt="ALVI Logo" className="inline-block w-10 h-10 mr-2" />
+            <img src="/assets/logo.jpeg" alt="ALVI Logo" className="inline-block w-10 h-10 mr-2" />
             Project ALVI
           </a>
           {/* Desktop Menu */}

@@ -95,7 +95,6 @@ const HeroSection = () => {
         </Button>
         <a
           href="#GetStarted"
-          className="bg-white text-2xl text-black hover:bg-purple-100 hover:text-red-500 px-8 py-3 rounded-lg border-2 border-black"
         >
           Get Started
         </a>
