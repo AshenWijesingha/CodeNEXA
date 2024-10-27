@@ -93,11 +93,13 @@ const HeroSection = () => {
         <Button size="lg" className="bg-white text-2xl text-black hover:bg-gray-100">
           Learn More
         </Button>
+        <Button size="lg" className="bg-white text-2xl text-black hover:bg-gray-100">
         <a
           href="#GetStarted"
         >
           Get Started
         </a>
+        </Button>
       </div>
     </div>
 
