@@ -55,7 +55,7 @@ const Abstract = () => (
         contribute to the model.
       </p>
       <img
-        src="/assets/images/3.png"
+        src="/assets/component-diagrams/secunid.png"
         alt="SECUNID Framework"
         className="w-full lg:w-1/3 rounded-lg shadow-lg lg:ml-8 mt-6 lg:mt-0"
       />
@@ -69,7 +69,7 @@ const Abstract = () => (
         communication.
       </p>
       <img
-        src="/assets/images/4.png"
+        src="/assets/component-diagrams/.png"
         alt="CodeNexa Security"
         className="w-full lg:w-1/3 rounded-lg shadow-lg lg:ml-8 mt-6 lg:mt-0"
       />
@@ -84,7 +84,7 @@ const Abstract = () => (
         label inference.
       </p>
       <img
-        src="/assets/images/5.png"
+        src="/assets/component-diagrams/shield.png"
         alt="SHIELD Protection"
         className="w-full lg:w-1/3 rounded-lg shadow-lg lg:ml-8 mt-6 lg:mt-0"
       />
