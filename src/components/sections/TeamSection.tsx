@@ -24,7 +24,7 @@ const teamMembers = [
     role: "Team Member",
     university: "Sri Lanka Institute of Information Technology",
     department: "Information Systems Engineering",
-    image: "/assets/team/4.png",
+    image: "/assets/team/4.jpeg",
     linkedin: "https://www.linkedin.com/in/virushan-hasaranga-student-sliit/",
     email: "hasarangavirushan@gmail.com"
   },
