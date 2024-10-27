@@ -33,7 +33,7 @@ function App() {
     <Hero />
       <br /><HR /><br />
       <Abstract />
-      <br />
+      <br /><HR /><br />
       <Introduction />
       <br />
       <br />
@@ -41,25 +41,25 @@ function App() {
       <br />
       <br />
       <ResearchGap />
-      <br />
+      <br /><HR /><br />
       <ResearchProblem />
-      <br />
+      <br /><HR /><br />
       {/* <ResearchObjectives /> */}
       {/* <br /> */}
       {/* <Acknowledgement /> */}
       <br />
       <Methodology />
-      <br />
+      <br /><HR /><br />
       <TechnologiesUsed />
-      <br />
+      <br /><HR /><br />
       <Timeline />
-      <br />
+      <br /><HR /><br />
       <DocumentList />
-      <br />
+      <br /><HR /><br />
       <TeamSection />
-      <br />
+      <br /><HR /><br />
       <Achievements />
-      <br />
+      <br /><HR /><br />
       <ContactUs />
       <br />
       </>
