@@ -93,13 +93,12 @@ const HeroSection = () => {
         <Button size="lg" className="bg-white text-2xl text-black hover:bg-gray-100">
           Learn More
         </Button>
-        <Button
-          size="lg"
-          variant="outline"
-          className="bg-white text-2xl text-black hover:bg-purple-100 hover:text-red-500"
+        <a
+          href="#GetStarted"
+          className="bg-white text-2xl text-black hover:bg-purple-100 hover:text-red-500 px-8 py-3 rounded-lg border-2 border-black"
         >
           Get Started
-        </Button>
+        </a>
       </div>
     </div>
 
