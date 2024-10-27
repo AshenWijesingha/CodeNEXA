@@ -40,7 +40,7 @@ const Abstract = () => (
         HydraGuard is a hybrid defense against backdoor attacks, combining Trigger Inversion and Simple Tuning methods. Trigger Inversion identifies potential backdoor triggers by reconstructing patterns from model gradients, while Simple Tuning adjusts specific layers of the model to neutralize these threats. This dual approach reduces backdoor attack success rates while maintaining model accuracy.
       </p>
       <img
-        src="/assets/images/2.png"
+        src="/assets/component-diagrams/Hydrag.png"
         alt="HydraGuard Defense"
         className="w-full lg:w-1/3 rounded-lg shadow-lg lg:ml-8 mt-6 lg:mt-0"
       />
