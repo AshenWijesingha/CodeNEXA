@@ -1,60 +1,80 @@
 const milestones = [
   {
-    date: 'March 2024',
-    title: 'Project Proposal',
-    description: 'Proposal submitted for approval and funding to initiate research.',
+    date: 'February 2024',
+    title: 'Project Charter & Proposal',
+    description: 'Project charter submission followed by proposal presentation and detailed report submission.',
     marks: 6,
     progress: 6,
+    keyDates: [
+      '19th Feb - Project Charter',
+      '21-22nd Feb - Proposal Presentation',
+      '29th Feb - Proposal Report'
+    ]
+  },
+  {
+    date: 'May 2024',
+    title: 'Progress Presentation I',
+    description: 'First progress review including presentation and status documentation.',
+    marks: 6,
+    progress: 12,
+    keyDates: [
+      '6-8th May - Progress Presentation',
+      '6th May - Status Document 1'
+    ]
   },
   {
     date: 'June 2024',
-    title: 'Progress Presentation I',
-    description: 'Review of 50% project completion to identify challenges and align progress with objectives.',
-    marks: 6,
-    progress: 12,
-  },
-  {
-    date: 'July 2024',
     title: 'Research Paper',
-    description: 'Contribution to academic knowledge on Federated Learning security with innovative techniques.',
+    description: 'Submission of initial research paper documenting findings and methodology.',
     marks: 10,
     progress: 27,
+    keyDates: [
+      '14th June - Research Paper Submission'
+    ]
   },
   {
     date: 'September 2024',
     title: 'Progress Presentation II',
-    description: 'Demonstrating 90% completion with a detailed analysis of outcomes and future steps.',
+    description: 'Second progress review with updated status documentation.',
     marks: 18,
     progress: 37,
+    keyDates: [
+      '11-13th Sept - Progress Presentation',
+      '11th Sept - Status Document 2'
+    ]
   },
   {
     date: 'October 2024',
-    title: 'Website Assessment',
-    description: 'Launching the project website to provide stakeholders with visibility and research details.',
-    marks: 2,
+    title: 'Final Presentation & Website',
+    description: 'Project website launch and final presentation with viva assessment.',
+    marks: 22,
     progress: 55,
+    keyDates: [
+      '21st Oct - Website Submission',
+      '28-30th Oct - Final Presentation & VIVA'
+    ]
   },
   {
     date: 'November 2024',
-    title: 'Logbook Submission',
-    description: 'Tracking project progress and validating all completed activities.',
-    marks: 3,
-    progress: 57,
+    title: 'Research Documentation',
+    description: 'Research paper registration and logbook submission.',
+    marks: 13,
+    progress: 75,
+    keyDates: [
+      '1st Nov - Research Paper Registration',
+      '20th Nov - Research Logbook'
+    ]
   },
   {
-    date: 'November 2024',
-    title: 'Final Report Submission',
-    description: 'Evaluating project outcomes with individual and group reports.',
-    marks: 19,
-    progress: 61,
-  },
-  {
-    date: 'November 2024',
-    title: 'Final Presentation & Viva',
-    description: 'Assessing individual contributions through viva presentations.',
-    marks: 20,
-    progress: 90,
-  },
+    date: 'December 2024',
+    title: 'Final Report',
+    description: 'Submission of proofread final report documenting complete project outcomes.',
+    marks: 25,
+    progress: 100,
+    keyDates: [
+      '2nd Dec - Final Report (Proofread) Submission'
+    ]
+  }
 ];
 
 const Milestones = () => {
