@@ -69,7 +69,7 @@ const Abstract = () => (
         communication.
       </p>
       <img
-        src="/assets/component-diagrams/.png"
+        src="/assets/component-diagrams/capture.png"
         alt="CodeNexa Security"
         className="w-full lg:w-1/3 rounded-lg shadow-lg lg:ml-8 mt-6 lg:mt-0"
       />
