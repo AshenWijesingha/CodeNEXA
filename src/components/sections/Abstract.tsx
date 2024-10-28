@@ -1,6 +1,6 @@
 
 const Abstract = () => (
-  <section id="GetStarted" className="container justify-self-center">
+  <section className="container justify-self-center">
     {/* <ShineBorder
       className="relative flex w-full flex-col items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl"
       color={["#A07CFE", "#FE8FB5", "#FFBE7B"]}

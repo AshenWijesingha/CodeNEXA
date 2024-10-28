@@ -31,6 +31,7 @@ function App() {
     <Navbar />
     <br />
     <Hero />
+      <div  id="GetStarted"></div>
       <br /><HR /><br />
       <Abstract />
       <br /><HR /><br />
