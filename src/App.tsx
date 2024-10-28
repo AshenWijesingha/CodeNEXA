@@ -54,6 +54,7 @@ function App() {
       <Methodology />
       <br /><HR /><br />
       <TechnologiesUsed />
+      <div id="milestones"></div>
       <br /><HR /><br />
       <Timeline />
       <br /><HR /><br />

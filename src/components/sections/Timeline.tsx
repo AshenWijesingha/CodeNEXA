@@ -79,7 +79,7 @@ const milestones = [
 
 const Milestones = () => {
   return (
-    <section id="milestones">
+    <section>
       <div className="container mx-auto">
         <br /><br />
         <span className="pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300/80 bg-clip-text text-center text-4xl sm:text-6xl md:text-8xl font-semibold leading-none text-transparent dark:from-white dark:to-slate-900/10">
