@@ -40,8 +40,7 @@ const Abstract = () => (
                 loop
                 muted
                 playsInline
-                className="mx-auto portrait-video"
-                style={{ width: "300px", height: "auto" }}
+                className="mx-auto portrait-video w-1/2 lg:w-1/3"
               >
               <source src="/assets/videos/HackCNN.mp4" type="video/mp4" />
               Your browser does not support the video tag.
