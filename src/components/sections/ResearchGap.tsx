@@ -127,7 +127,7 @@ const ResearchGap = () => {
                       <h3 className="text-xl text-left font-semibold text-gray-800">
                         HydraGuard
                       </h3>
-                      <p className="text-gray-600 mt-1">
+                      <p className="text-gray-600 mt-1 text-lg">
                         Mitigates backdoor attacks through{" "}
                         <span className="font-medium text-blue-600">
                           trigger inversion
@@ -149,7 +149,7 @@ const ResearchGap = () => {
                       <h3 className="text-xl text-left font-semibold text-gray-800">
                         SECUNID
                       </h3>
-                      <p className="text-gray-600 mt-1">
+                      <p className="text-gray-600 mt-1 text-lg">
                         Identifies poisoned data updates using{" "}
                         <span className="font-medium text-blue-600">
                           LayerCAM heatmaps
@@ -171,7 +171,7 @@ const ResearchGap = () => {
                       <h3 className="text-xl text-left font-semibold text-gray-800">
                         CodeNexa
                       </h3>
-                      <p className="text-gray-600 mt-1">
+                      <p className="text-gray-600 mt-1 text-lg">
                         Uses{" "}
                         <span className="font-medium text-blue-600">
                           dynamic metric verification
@@ -190,7 +190,7 @@ const ResearchGap = () => {
                       <h3 className="text-xl text-left font-semibold text-gray-800">
                         SHIELD
                       </h3>
-                      <p className="text-gray-600 mt-1">
+                      <p className="text-gray-600 mt-1 text-lg">
                         Defends Vertical Federated Learning (VFL) from label
                         inference attacks through{" "}
                         <span className="font-medium text-blue-600">
