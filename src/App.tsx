@@ -28,9 +28,9 @@ function App() {
 
   return (
     <>
-    <Navbar />
-    <br />
-    <Hero />
+      <Navbar />
+      <br />
+      <Hero />
       <div  id="GetStarted"></div>
       <br /><HR /><br />
       <Abstract />
@@ -60,6 +60,7 @@ function App() {
       <br /><HR /><br />
       <DocumentList />
       <br /><HR /><br />
+      <div id="about"></div>
       <TeamSection />
       <br /><HR /><br />
       <Achievements />
