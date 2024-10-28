@@ -40,8 +40,8 @@ function App() {
       <br />
       <br />
       <ScrollingText />
-      <br />
       <div id="projectscope"></div>
+      <br />
       <br />
       <ResearchGap />
       <br /><HR /><br />
