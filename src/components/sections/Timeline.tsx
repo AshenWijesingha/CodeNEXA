@@ -96,7 +96,7 @@ const Milestones = () => {
                 <h3 className="text-2xl md:text-4xl font-semibold mb-2">{milestone.title}</h3>
                 <p className="text-gray-700 mb-4 text-lg md:text-2xl">{milestone.description}</p>
                 <p className="text-gray-700 font-bold text-lg md:text-xl">
-                  Marks Allocated: {milestone.marks}
+                  Progress: {milestone.marks}
                 </p>
                 <div className="w-full bg-gray-200 rounded-full h-3 md:h-4 mt-3">
                   <div
