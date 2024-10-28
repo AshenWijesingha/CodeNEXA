@@ -13,7 +13,7 @@ const TechnologiesUsed = () => {
     { name: 'GitHub', image: `https://github.com/fluidicon.png` },
     { name: 'Docker', image: `${baseDomain}Images/tech/doker.png` },
     { name: 'Google Colab', image: `${baseDomain}Images/tech/colab.png` },
-    { name: 'Amazon AWS', image: `https://imgs.search.brave.com/DkXtxsh5abUFA13ArNlndiAftLFNG8EY5oVlGhD4NWs/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi85LzkzL0Ft/YXpvbl9XZWJfU2Vy/dmljZXNfTG9nby5z/dmcvMjIwcHgtQW1h/em9uX1dlYl9TZXJ2/aWNlc19Mb2dvLnN2/Zy5wbmc` }
+    { name: 'Amazon AWS', image: `https://imgs.search.brave.com/DkXtxsh5abUFA13ArNlndiAftLFNG8EY5oVlGhD4NWs/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi85LzkzL0Ft/YXpvbl9XZWJfU2Vy/dmljZXNfTG9nby5z/dmcvMjIwcHgtQW1h/em9uX1dlYl9TZXJ2/aWNlc19Mb2dvLnN2/Zy5wbmc` },
     { name: 'OpenAI', image: `https://openai.com/favicon.ico` }
   ];
 
