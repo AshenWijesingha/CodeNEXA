@@ -20,7 +20,7 @@ export default function Navbar() {
             <li><a href="#home" className="text-gray-800 hover:text-blue-600">Home</a></li>
             <li><a href="#GetStarted" className="text-gray-800 hover:text-blue-600">Literature Survey</a></li>
             <li><a href="#ResearchGap" className="text-gray-800 hover:text-blue-600">Research Gap</a></li>
-            <li><a href="#project-scope" className="text-gray-800 hover:text-blue-600">Project Scope</a></li>
+            <li><a href="#projectscope" className="text-gray-800 hover:text-blue-600">Project Scope</a></li>
             <li><a href="#milestones" className="text-gray-800 hover:text-blue-600">Milestones</a></li>
             <li><a href="#about" className="text-gray-800 hover:text-blue-600">About Us</a></li>
             <li><a href="#contact" className="text-gray-800 hover:text-blue-600">Contact Us</a></li>
