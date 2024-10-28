@@ -12,10 +12,11 @@ const ResearchGap = () => {
 
       <div className="container mx-auto flex flex-col py-12 px-4">
         <div className="mt-8 space-y-10">
-          {/* <div className="">
+           {/* <div className=""> */}
             <h2 className="text-3xl sm:text-4xl md:text-6xl font-semibold text-black dark:text-white">
               Problem Statement
             </h2>
+            {/*
             <p className="mt-2 text-base sm:text-lg md:text-xl text-gray-700 dark:text-gray-300">
               Federated Learning systems are vulnerable to attacks like backdoor
               attacks, model and data poisoning, MITM attacks, and label
