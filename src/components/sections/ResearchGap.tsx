@@ -1,3 +1,5 @@
+import FlipCard from "../ui-component/FlipCard";
+
 const ResearchGap = () => {
   return (
     // <section className="bg-white text-black min-h-screen flex flex-col justify-center items-center overflow-hidden">
@@ -40,22 +42,30 @@ const ResearchGap = () => {
             </div>
           </div> */}
 
-          <div className="flex justify-between p-8 text-gray-600 text-left text-xl mb-4">
-            <div className="w-3/4 pr-4 bg-white shadow-lg p-8">
-              <h2 className="text-2xl font-bold mb-4">Code Nexa</h2>
+          <div className="flex item-center justify-between p-16 text-gray-600 text-left text-xl mb-4">
+            <div className="w-[700px] pr-4 item-center flex-col justify-between bg-white shadow-lg p-8">
+              <FlipCard 
+                title="Code Nexa" 
+                description="Dynamic Nature of Federated Learning (FL). Continuous Model Integrity Verification. Protection Against MITM Attacks" 
+              />
+              {/* <h2 className="text-2xl font-bold mb-4">Code Nexa</h2>
               <p className="lg:w-full text-2xl text-gray-700 leading-relaxed">
               Dynamic Nature of Federated Learning (FL). Continuous Model Integrity Verification. Protection Against MITM Attacks
-              </p>
+              </p> */}
               {/* <ul className="list-disc pl-5 mb-8">
                 <li className="mb-2"></li>
                 <li className="mb-2">Continuous Model Integrity Verification</li>
                 <li className="mb-2">Protection Against MITM Attacks</li>
               </ul> */}
               <br />
-              <h2 className="text-2xl font-bold mb-4">Hydraguard</h2>
+              <FlipCard 
+                title="Hydraguard" 
+                description="Continuous attacks are more aggressive than single-shot attacks. Detecting and Rejecting malicious weights leads to data loss, and data breaches and reduces module accuracy. Existing defense mechanisms need big computational power and violate the essence of the FL. Unreliable Predictions." 
+              />
+              {/* <h2 className="text-2xl font-bold mb-4">Hydraguard</h2>
               <p className="lg:w-full text-2xl text-gray-700 leading-relaxed">
               Continuous attacks are more aggressive than single-shot attacks. Detecting and Rejecting malicious weights leads to data loss, and data breaches and reduces module accuracy. Existing defense mechanisms need big computational power and violate the essence of the FL. Unreliable Predictions.
-              </p>
+              </p> */}
               {/* <ul className="list-disc pl-5 mb-8">
                 <li className="mb-2"></li>
                 <li className="mb-2">Detecting and Rejecting malicious weights leads to data loss, and data breaches and reduces module accuracy.</li>
@@ -63,10 +73,14 @@ const ResearchGap = () => {
                 <li className="mb-2">Unreliable Predictions.</li>
               </ul> */}
               <br />
-              <h2 className="text-2xl font-bold mb-4">Secunid</h2>
+              <FlipCard 
+                title="Secunid" 
+                description="Existing defenses, such as distance-based metrics (e.g., Krum, Trimmed-Mean), struggle to detect sophisticated attacks where malicious updates resemble legitimate ones. Attackers alter their local model updates during training, sending manipulated updates to the central server, which degrades the global model's accuracy and reliability. Current methods usually require some knowledge of the attacks, Malicious participant ratio Examining local datasets (compromise the privacy of participants) Assuming IID data." 
+              />
+              {/* <h2 className="text-2xl font-bold mb-4">Secunid</h2>
               <p className="lg:w-full text-2xl text-gray-700 leading-relaxed">
                 Existing defenses, such as distance-based metrics (e.g., Krum, Trimmed-Mean), struggle to detect sophisticated attacks where malicious updates resemble legitimate ones. Attackers alter their local model updates during training, sending manipulated updates to the central server, which degrades the global model's accuracy and reliability. Current methods usually require some knowledge of the attacks, Malicious participant ratio Examining local datasets (compromise the privacy of participants) Assuming IID data 
-              </p>
+              </p> */}
               {/* <ul className="list-disc pl-5 mb-8">
                 <li className="mb-2">Existing defenses, such as distance-based metrics (e.g., Krum, Trimmed-Mean), struggle to detect sophisticated attacks where malicious updates resemble legitimate ones.</li>
                 <li className="mb-2">Attackers alter their local model updates during training, sending manipulated updates to the central server, which degrades the global model's accuracy and reliability.</li>
@@ -78,13 +92,17 @@ const ResearchGap = () => {
                 </ul>
               </ul> */}
               <br />
-              <h2 className="text-2xl font-bold mb-4">SHIELD</h2>
+              <FlipCard 
+                title="SHIELD" 
+                description="Limited Defense Mechanisms: Current VFL security protocols are not robust enough to fully prevent label inference attacks, leading to potential data breaches. Lack of scalable solutions that balance privacy and performance. Insufficient Mitigation Strategies: Existing solutions may not effectively address all types of label inference attacks, especially sophisticated passive and active forms. Existing methods for defending against label inference attacks in VFL are computationally expensive (e.g., Secure Multi-Party Computation). Insufficient focus on lightweight mechanisms for privacy preservation in collaborative learning environments." 
+              />
+              {/* <h2 className="text-2xl font-bold mb-4">SHIELD</h2>
               <p className="lg:w-full text-2xl text-gray-700 leading-relaxed">
 Limited Defense Mechanisms: Current VFL security protocols are not robust enough to fully prevent label inference attacks, leading to potential data breaches. Lack of scalable solutions that balance privacy and performance. Insufficient Mitigation Strategies: Existing solutions may not effectively address all types of label inference attacks, especially sophisticated passive and active forms. Existing methods for defending against label inference attacks in VFL are computationally expensive (e.g., Secure Multi-Party Computation). Insufficient focus on lightweight mechanisms for privacy preservation in collaborative learning environments.
-              </p>
+              </p> */}
             </div>
 
-            <div className="w-3/4 pl-4 pt-[110px]">
+            <div className="w-3/4 pl-4 pt-[535px]">
                 <video
                 controls
                 autoPlay
