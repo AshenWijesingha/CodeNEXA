@@ -56,7 +56,6 @@ function App() {
       <Methodology />
       <br /><HR /><br />
       <TechnologiesUsed />
-      <div id="milestones"></div>
       <br /><HR /><br />
       <Timeline />
       <div id="documents"></div>
@@ -65,6 +64,7 @@ function App() {
       <div id="about"></div>
       <br /><HR /><br />
       <TeamSection />
+      <div id="milestones"></div>
       <br /><HR /><br />
       <Achievements />
       <br /><HR /><br />
