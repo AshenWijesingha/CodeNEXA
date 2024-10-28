@@ -10,7 +10,7 @@ const ResearchGap = () => {
         Research Problem & Solution
       </span>
 
-      <div className="container mx-auto flex flex-col items-center py-12 px-4">
+      <div className="container mx-auto flex flex-col py-12 px-4">
         <div className="mt-8 space-y-10">
           {/* <div className="">
             <h2 className="text-3xl sm:text-4xl md:text-6xl font-semibold text-black dark:text-white">
