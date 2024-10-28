@@ -83,7 +83,7 @@ const ResearchGap = () => {
               </ul>
             </div>
 
-            <div className="w-1/2 pl-4">
+            <div className="w-3/4 pl-4">
                 <video
                 controls
                 autoPlay
@@ -91,7 +91,7 @@ const ResearchGap = () => {
                 muted
                 playsInline
                 className="mx-auto portrait-video w-full rounded-lg shadow-lg"
-                style={{ width: "300px", height: "auto" }}
+                style={{ width: "500px", height: "auto" }}
               >
                 <source src="/assets/videos/HackCNN.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
