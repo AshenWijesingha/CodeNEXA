@@ -26,7 +26,7 @@ const AchievementsSection = () => {
         <div className="flex justify-center">
           <div className="text-center">
             <img
-              src="/achievements/ICAC.png"
+              src="/assets/achievements/ICAC.png"
               alt="Award"
               className="w-4/5 mx-auto"
             />
@@ -42,7 +42,7 @@ const AchievementsSection = () => {
         <div className="flex justify-center">
           <div className="text-center">
             <img
-              src="/achievements/SNAMS.png"
+              src="/assets/achievements/SNAMS.png"
               alt="Award"
               className="w-4/5 mx-auto"
             />
