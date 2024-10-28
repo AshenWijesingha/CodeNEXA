@@ -50,8 +50,12 @@ export default {
           4: "hsl(var(--chart-4))",
           5: "hsl(var(--chart-5))",
         },
-        "black-100": "#adb5bd",
-        "black-200": "#343a40", // Custom light black color, adjust as needed
+        "black-100": "#f8f9fa",
+        "black-200": "#343a40",
+		"netflix-red": "#8e0e00",
+		"netflix-black": "#1f1c18",
+		"palewood1": "#eacda3", // Custom light brown color, adjust as needed
+		"palewood2": "#d6ae7b" // Custom light black color, adjust as needed
       },
       animation: {
         orbit: "orbit calc(var(--duration)*1s) linear infinite",
