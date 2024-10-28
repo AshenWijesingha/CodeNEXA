@@ -91,7 +91,11 @@ const HeroSection = () => {
       </p>
       <div className="flex flex-wrap justify-center gap-4 mb-12">
         <Button size="lg" className="bg-white text-2xl text-black hover:bg-gray-100">
+          <a
+          href="#documents"
+        >
           Learn More
+        </a>
         </Button>
         <Button size="lg" className="bg-white text-2xl text-black hover:bg-gray-100">
         <a

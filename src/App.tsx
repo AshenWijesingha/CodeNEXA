@@ -58,6 +58,7 @@ function App() {
       <div id="milestones"></div>
       <br /><HR /><br />
       <Timeline />
+      <div id="documents"></div>
       <br /><HR /><br />
       <DocumentList />
       <div id="about"></div>
