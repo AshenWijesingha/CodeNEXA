@@ -51,7 +51,7 @@ const Abstract = () => (
                 loop
                 muted
                 playsInline
-                className="mx-auto portrait-video w-1/2 lg:w-1/3"
+                className="mx-auto portrait-video w-3/4"
               >
               <source src="/assets/videos/HackCNN.mp4" type="video/mp4" />
               Your browser does not support the video tag.
