@@ -28,7 +28,7 @@ const Abstract = () => (
       <p className="lg:w-1/2 text-2xl text-gray-700 leading-relaxed">
         Federated Learning (FL) facilitates decentralized model training across various clients while safeguarding data privacy, but it poses significant security risks, such as backdoor attacks, poisoning attacks, Man-in-the-Middle (MITM) attacks, and label inference attacks. This research introduces a security framework with four core components, each tailored to mitigate specific threats in FL environments.
       </p>
-      <div className=" flex flex-col lg:flex-row items-center mb-8 h-40 bg-gray-300 mb-4" id="component-diagrams">
+      <div className=" flex flex-col lg:flex-row items-center mb-8 h-40 mb-4" id="component-diagrams">
         <img
         src="/assets/component-diagrams/all.jpeg"
         alt="Federated Learning"
