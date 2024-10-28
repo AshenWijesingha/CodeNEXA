@@ -20,6 +20,8 @@ import HR from './components/ui-component/HorizontalLine';
 import Navbar from './components/ui-component/NavBar';
 import ScrollingText from './components/ui-component/ScrollingText';
 
+import BGVideo from './components/ui-component/BackgroundVideo';
+
 // import Hero from './components/ui-component/Hero';
 
 //UI Animation Eliment
@@ -28,6 +30,7 @@ function App() {
 
   return (
     <>
+      <BGVideo />
       <Navbar />
       <br />
       <Hero />
