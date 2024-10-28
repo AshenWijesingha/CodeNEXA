@@ -41,6 +41,7 @@ function App() {
       <br />
       <ScrollingText />
       <br />
+      <div id="project-scope"></div>
       <br />
       <ResearchGap />
       <br /><HR /><br />
