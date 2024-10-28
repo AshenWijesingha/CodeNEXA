@@ -59,8 +59,8 @@ function App() {
       <Timeline />
       <br /><HR /><br />
       <DocumentList />
-      <br /><HR /><br />
       <div id="about"></div>
+      <br /><HR /><br />
       <TeamSection />
       <br /><HR /><br />
       <Achievements />
