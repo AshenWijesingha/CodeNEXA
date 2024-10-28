@@ -43,6 +43,7 @@ function App() {
       <div id="projectscope"></div>
       <br />
       <br />
+      <br />
       <ResearchGap />
       <br /><HR /><br />
       <br />
