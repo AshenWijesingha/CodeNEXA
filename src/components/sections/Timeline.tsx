@@ -3,8 +3,8 @@ const milestones = [
     date: 'February 2024',
     title: 'Project Charter & Proposal',
     description: 'Project charter submission followed by proposal presentation and detailed report submission.',
-    marks: 6,
-    progress: 6,
+    marks: 100,
+    progress: 0,
     keyDates: [
       '19th Feb - Project Charter',
       '21-22nd Feb - Proposal Presentation',
@@ -15,8 +15,8 @@ const milestones = [
     date: 'May 2024',
     title: 'Progress Presentation I',
     description: 'First progress review including presentation and status documentation.',
-    marks: 6,
-    progress: 12,
+    marks: 100,
+    progress: 100,
     keyDates: [
       '6-8th May - Progress Presentation',
       '6th May - Status Document 1'
@@ -26,7 +26,7 @@ const milestones = [
     date: 'June 2024',
     title: 'Research Paper',
     description: 'Submission of initial research paper documenting findings and methodology.',
-    marks: 10,
+    marks: 100,
     progress: 27,
     keyDates: [
       '14th June - Research Paper Submission'
@@ -36,7 +36,7 @@ const milestones = [
     date: 'September 2024',
     title: 'Progress Presentation II',
     description: 'Second progress review with updated status documentation.',
-    marks: 18,
+    marks: 100,
     progress: 37,
     keyDates: [
       '11-13th Sept - Progress Presentation',
@@ -47,7 +47,7 @@ const milestones = [
     date: 'October 2024',
     title: 'Final Presentation & Website',
     description: 'Project website launch and final presentation with viva assessment.',
-    marks: 22,
+    marks: 90,
     progress: 55,
     keyDates: [
       '21st Oct - Website Submission',
@@ -58,7 +58,7 @@ const milestones = [
     date: 'November 2024',
     title: 'Research Documentation',
     description: 'Research paper registration and logbook submission.',
-    marks: 13,
+    marks: 100,
     progress: 75,
     keyDates: [
       '1st Nov - Research Paper Registration',
@@ -69,7 +69,7 @@ const milestones = [
     date: 'December 2024',
     title: 'Final Report',
     description: 'Submission of proofread final report documenting complete project outcomes.',
-    marks: 25,
+    marks: 100,
     progress: 100,
     keyDates: [
       '2nd Dec - Final Report (Proofread) Submission'
