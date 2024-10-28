@@ -41,24 +41,33 @@ const ResearchGap = () => {
           </div> */}
 
           <div className="flex justify-between p-8 text-gray-600 text-left text-xl mb-4">
-            <div className="w-1/2 pr-4">
+            <div className="w-3/4 pr-4 bg-white shadow-lg p-8">
               <h2 className="text-2xl font-bold mb-4">Code Nexa</h2>
-              <ul className="list-disc pl-5 mb-8">
-                <li className="mb-2">Dynamic Nature of Federated Learning (FL)</li>
+              <p className="lg:w-full text-2xl text-gray-700 leading-relaxed">
+              Dynamic Nature of Federated Learning (FL). Continuous Model Integrity Verification. Protection Against MITM Attacks
+              </p>
+              {/* <ul className="list-disc pl-5 mb-8">
+                <li className="mb-2"></li>
                 <li className="mb-2">Continuous Model Integrity Verification</li>
                 <li className="mb-2">Protection Against MITM Attacks</li>
-              </ul>
-
+              </ul> */}
+              <br />
               <h2 className="text-2xl font-bold mb-4">Hydraguard</h2>
-              <ul className="list-disc pl-5 mb-8">
-                <li className="mb-2">Continuous attacks are more aggressive than single-shot attacks.</li>
+              <p className="lg:w-full text-2xl text-gray-700 leading-relaxed">
+              Continuous attacks are more aggressive than single-shot attacks. Detecting and Rejecting malicious weights leads to data loss, and data breaches and reduces module accuracy. Existing defense mechanisms need big computational power and violate the essence of the FL. Unreliable Predictions.
+              </p>
+              {/* <ul className="list-disc pl-5 mb-8">
+                <li className="mb-2"></li>
                 <li className="mb-2">Detecting and Rejecting malicious weights leads to data loss, and data breaches and reduces module accuracy.</li>
                 <li className="mb-2">Existing defense mechanisms need big computational power and violate the essence of the FL.</li>
                 <li className="mb-2">Unreliable Predictions.</li>
-              </ul>
-
+              </ul> */}
+              <br />
               <h2 className="text-2xl font-bold mb-4">Secunid</h2>
-              <ul className="list-disc pl-5 mb-8">
+              <p className="lg:w-full text-2xl text-gray-700 leading-relaxed">
+                Existing defenses, such as distance-based metrics (e.g., Krum, Trimmed-Mean), struggle to detect sophisticated attacks where malicious updates resemble legitimate ones. Attackers alter their local model updates during training, sending manipulated updates to the central server, which degrades the global model's accuracy and reliability. Current methods usually require some knowledge of the attacks, Malicious participant ratio Examining local datasets (compromise the privacy of participants) Assuming IID data 
+              </p>
+              {/* <ul className="list-disc pl-5 mb-8">
                 <li className="mb-2">Existing defenses, such as distance-based metrics (e.g., Krum, Trimmed-Mean), struggle to detect sophisticated attacks where malicious updates resemble legitimate ones.</li>
                 <li className="mb-2">Attackers alter their local model updates during training, sending manipulated updates to the central server, which degrades the global model's accuracy and reliability.</li>
                 <li className="mb-2">Current methods usually require some knowledge of the attacks,</li>
@@ -67,32 +76,23 @@ const ResearchGap = () => {
                   <li className="mb-2">Examining local datasets (compromise the privacy of participants)</li>
                   <li className="mb-2">Assuming IID data</li>
                 </ul>
-              </ul>
-
+              </ul> */}
+              <br />
               <h2 className="text-2xl font-bold mb-4">SHIELD</h2>
-              <h3 className="text-lg font-semibold mb-2">Limited Defense Mechanisms:</h3>
-              <ul className="list-disc pl-5 mb-8">
-                <li className="mb-2">Current VFL security protocols are not robust enough to fully prevent label inference attacks, leading to potential data breaches.</li>
-                <li className="mb-2">Lack of scalable solutions that balance privacy and performance.</li>
-              </ul>
-
-              <h3 className="text-lg font-semibold mb-2">Insufficient Mitigation Strategies:</h3>
-              <ul className="list-disc pl-5 mb-8">
-                <li className="mb-2">Existing solutions may not effectively address all types of label inference attacks, especially sophisticated passive and active forms.</li>
-                <li className="mb-2">Existing methods for defending against label inference attacks in VFL are computationally expensive (e.g., Secure Multi-Party Computation).</li>
-                <li className="mb-2">Insufficient focus on lightweight mechanisms for privacy preservation in collaborative learning environments.</li>
-              </ul>
+              <p className="lg:w-full text-2xl text-gray-700 leading-relaxed">
+Limited Defense Mechanisms: Current VFL security protocols are not robust enough to fully prevent label inference attacks, leading to potential data breaches. Lack of scalable solutions that balance privacy and performance. Insufficient Mitigation Strategies: Existing solutions may not effectively address all types of label inference attacks, especially sophisticated passive and active forms. Existing methods for defending against label inference attacks in VFL are computationally expensive (e.g., Secure Multi-Party Computation). Insufficient focus on lightweight mechanisms for privacy preservation in collaborative learning environments.
+              </p>
             </div>
 
-            <div className="w-3/4 pl-4">
+            <div className="w-3/4 pl-4 pt-[110px]">
                 <video
                 controls
                 autoPlay
                 loop
                 muted
                 playsInline
-                className="mx-auto portrait-video w-full rounded-lg shadow-lg"
-                style={{ width: "500px", height: "auto" }}
+                className="mx-auto portrait-video w-full rounded-lg shadow-2xl"
+                style={{ width: "300px", height: "auto" }}
               >
                 <source src="/assets/videos/HackCNN.mp4" type="video/mp4" />
                 Your browser does not support the video tag.

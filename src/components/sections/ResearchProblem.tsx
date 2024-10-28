@@ -13,11 +13,11 @@ const ResearchProblem = () => {
       </span>
       <br /><br />
       
-            <div className="max-w-7xl mx-auto">
+            <div className="max-w-7xl mx-auto bg-white p-6">
                 <h2 className="text-2xl font-bold text-gray-800 mb-6"></h2>
 
                 {/* Vulnerability to Backdoor Attacks */}
-                <div className="mb-8">
+                <div className="mb-8 ">
                     
                     <h3 className="text-2xl text-left font-semibold text-gray-700">Detect and Neutralize Backdoor Attacks</h3>
                     <p className="text-gray-600 text-left text-xl mb-4">

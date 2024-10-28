@@ -30,7 +30,6 @@ function App() {
 
   return (
     <>
-      {/* <BGVideo /> */}
       <Navbar />
       <br />
       <Hero />

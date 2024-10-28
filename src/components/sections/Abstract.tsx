@@ -19,13 +19,13 @@ const Abstract = () => (
       
       <br /><br />
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 text-center mb-8">
+        <h2 className="text-3xl md:text-4xl font-bold text-black text-center mb-8">
           Security Framework for Federated Learning
         </h2>
       </div>
 
     <div className="flex flex-col lg:flex-row items-center mb-8">
-      <p className="lg:w-1/2 text-2xl text-gray-700 leading-relaxed">
+      <p className="lg:w-1/2 text-2xl text-black leading-relaxed">
         Federated Learning (FL) facilitates decentralized model training across various clients while safeguarding data privacy, but it poses significant security risks, such as backdoor attacks, poisoning attacks, Man-in-the-Middle (MITM) attacks, and label inference attacks. This research introduces a security framework with four core components, each tailored to mitigate specific threats in FL environments.
       </p>
         <img
@@ -36,7 +36,7 @@ const Abstract = () => (
       </div>
 
     <div className="flex flex-col lg:flex-row items-center mb-8">
-      <p className="lg:w-1/2 text-2xl text-gray-700 leading-relaxed">
+      <p className="lg:w-1/2 text-2xl text-black leading-relaxed">
         HydraGuard is a hybrid defense against backdoor attacks, combining Trigger Inversion and Simple Tuning methods. Trigger Inversion identifies potential backdoor triggers by reconstructing patterns from model gradients, while Simple Tuning adjusts specific layers of the model to neutralize these threats. This dual approach reduces backdoor attack success rates while maintaining model accuracy.
       </p>
         <img
@@ -47,7 +47,7 @@ const Abstract = () => (
     </div>
 
     <div className="flex flex-col lg:flex-row items-center mb-8">
-      <p className="lg:w-1/2 text-2xl text-gray-700 leading-relaxed">
+      <p className="lg:w-1/2 text-2xl text-black leading-relaxed">
         SECUNID addresses data and model poisoning attacks by filtering out
         malicious updates before they are integrated into the global model. It
         utilizes LayerCAM, a visual interpretability tool, and an Autoencoder to
@@ -62,7 +62,7 @@ const Abstract = () => (
     </div>
 
     <div className="flex flex-col lg:flex-row items-center mb-8">
-      <p className="lg:w-1/2 text-2xl text-gray-700 leading-relaxed">
+      <p className="lg:w-1/2 text-2xl text-black leading-relaxed">
         CodeNexa prevents MITM attacks by implementing dynamic metric
         verification, which encrypts and validates key performance metrics
         during FL, safeguarding the system from unauthorized alterations during
@@ -76,7 +76,7 @@ const Abstract = () => (
     </div>
 
     <div className="flex flex-col lg:flex-row items-center mb-8">
-      <p className="lg:w-1/2 text-2xl text-gray-700 leading-relaxed">
+      <p className="lg:w-1/2 text-2xl text-black leading-relaxed">
         SHIELD protects Vertical Federated Learning (VFL) systems from label
         inference attacks using confusional autoencoders, noise addition, and a
         simplified Secure Multi-Party Computation (SMC) framework. These

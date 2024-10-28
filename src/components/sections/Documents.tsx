@@ -43,7 +43,7 @@ const presentationsData = [
     title: 'Research Paper',
     date: '2024/06/14',
     links: [
-      { label: 'Group', url: 'https://mysliit.sharepoint.com/:b:/s/CDAPSubmissionCloud/Ed-gybh_eelNr6uF3wykMgkB1q-D37UYiyy0SJQtvxRMeg?e=bfBvey' },
+      { label: 'Group', url: 'mailto:project.alvi@gmail.com?subject=Requesting Research Papers' },
     ],
   },
   {
