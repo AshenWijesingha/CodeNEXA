@@ -35,16 +35,17 @@ const Abstract = () => (
         className="w-1/2 lg:w-1/3 rounded-lg shadow-lg lg:ml-8 mt-6 lg:mt-0"
       />
       <video
-      className="absolute top-0 left-0 w-full h-full object-cover z-[-1]"
-      autoPlay
-      loop
-      muted
-      playsInline
-      >
-      <source src="/assets/videos/Hero1.mp4" type="video/mp4" />
-      Your browser does not support the video tag.
-      </video>
-
+                controls
+                autoPlay
+                loop
+                muted
+                playsInline
+                className="mx-auto portrait-video"
+                style={{ width: "300px", height: "auto" }}
+              >
+              <source src="/assets/videos/HackCNN.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+              </video>
       </div>
       
     </div>
