@@ -8,13 +8,13 @@ const TechnologiesUsed = () => {
     { name: 'Tensorflow', image: `${baseDomain}Images/tech/tensorflow.png` },
     { name: 'Keras', image: `${baseDomain}Images/tech/keras.png` },
     { name: 'MongoDB', image: `${baseDomain}Images/tech/mongo.jpg` },
-    // { name: 'Firebase', image: `${baseDomain}Images/tech/firebase.png` },
+    { name: 'VS Code', image: `https://code.visualstudio.com/favicon.ico` },
     { name: 'Google Cloud', image: `${baseDomain}Images/tech/googlecloud.png` },
-    // { name: 'Kafka', image: `${baseDomain}Images/tech/kafka.jpg` },
+    { name: 'GitHub', image: `https://github.com/fluidicon.png` },
     { name: 'Docker', image: `${baseDomain}Images/tech/doker.png` },
     { name: 'Google Colab', image: `${baseDomain}Images/tech/colab.png` },
     { name: 'Amazon AWS', image: `https://imgs.search.brave.com/DkXtxsh5abUFA13ArNlndiAftLFNG8EY5oVlGhD4NWs/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi85LzkzL0Ft/YXpvbl9XZWJfU2Vy/dmljZXNfTG9nby5z/dmcvMjIwcHgtQW1h/em9uX1dlYl9TZXJ2/aWNlc19Mb2dvLnN2/Zy5wbmc` }
-    // { name: 'JWT', image: `${baseDomain}Images/tech/jwt.png` }
+    { name: 'OpenAI', image: `https://openai.com/favicon.ico` }
   ];
 
   return (
