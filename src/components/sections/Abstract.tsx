@@ -28,13 +28,24 @@ const Abstract = () => (
       <p className="lg:w-1/2 text-2xl text-gray-700 leading-relaxed">
         Federated Learning (FL) facilitates decentralized model training across various clients while safeguarding data privacy, but it poses significant security risks, such as backdoor attacks, poisoning attacks, Man-in-the-Middle (MITM) attacks, and label inference attacks. This research introduces a security framework with four core components, each tailored to mitigate specific threats in FL environments.
       </p>
-      <div className=" flex flex-col lg:flex-row items-center mb-8 h-40 mb-4" id="component-diagrams">
         <img
         src="/assets/component-diagrams/all.jpeg"
         alt="Federated Learning"
         className="w-1/2 lg:w-1/3 rounded-lg shadow-lg lg:ml-8 mt-6 lg:mt-0"
       />
-      <video
+      </div>
+
+    <div className="flex flex-col lg:flex-row items-center mb-8">
+      <p className="lg:w-1/2 text-2xl text-gray-700 leading-relaxed">
+        HydraGuard is a hybrid defense against backdoor attacks, combining Trigger Inversion and Simple Tuning methods. Trigger Inversion identifies potential backdoor triggers by reconstructing patterns from model gradients, while Simple Tuning adjusts specific layers of the model to neutralize these threats. This dual approach reduces backdoor attack success rates while maintaining model accuracy.
+      </p>
+      <div className="flex flex-col lg:flex-row items-center mb-8">
+        <img
+        src="/assets/component-diagrams/Hydrag.png"
+        alt="HydraGuard Defense"
+        className="w-full lg:w-1/3 rounded-lg shadow-lg lg:ml-8 mt-6 lg:mt-0"
+        />
+        <video
                 controls
                 autoPlay
                 loop
@@ -46,18 +57,6 @@ const Abstract = () => (
               Your browser does not support the video tag.
               </video>
       </div>
-      
-    </div>
-
-    <div className="flex flex-col lg:flex-row items-center mb-8">
-      <p className="lg:w-1/2 text-2xl text-gray-700 leading-relaxed">
-        HydraGuard is a hybrid defense against backdoor attacks, combining Trigger Inversion and Simple Tuning methods. Trigger Inversion identifies potential backdoor triggers by reconstructing patterns from model gradients, while Simple Tuning adjusts specific layers of the model to neutralize these threats. This dual approach reduces backdoor attack success rates while maintaining model accuracy.
-      </p>
-      <img
-        src="/assets/component-diagrams/Hydrag.png"
-        alt="HydraGuard Defense"
-        className="w-full lg:w-1/3 rounded-lg shadow-lg lg:ml-8 mt-6 lg:mt-0"
-      />
     </div>
 
     <div className="flex flex-col lg:flex-row items-center mb-8">
