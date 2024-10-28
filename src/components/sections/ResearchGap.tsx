@@ -39,7 +39,7 @@ const ResearchGap = () => {
             </div>
           </div> */}
 
-          <div className="flex justify-between p-8">
+          <div className="flex justify-between p-8 text-gray-600 text-left text-xl mb-4">
             <div className="w-1/2 pr-4">
               <h2 className="text-2xl font-bold mb-4">Code Nexa</h2>
               <ul className="list-disc pl-5 mb-8">
