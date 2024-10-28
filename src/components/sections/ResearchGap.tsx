@@ -12,7 +12,7 @@ const ResearchGap = () => {
 
       <div className="container mx-auto flex flex-col items-center justify-center py-12 px-4 text-center">
         <div className="mt-8 space-y-10">
-          <div className="">
+          {/* <div className="">
             <h2 className="text-3xl sm:text-4xl md:text-6xl font-semibold text-black dark:text-white">
               Problem Statement
             </h2>
@@ -35,6 +35,66 @@ const ResearchGap = () => {
               >
               <source src="/assets/videos/HackCNN.mp4" type="video/mp4" />
               Your browser does not support the video tag.
+              </video>
+            </div>
+          </div> */}
+
+          <div className="flex justify-between p-8">
+            <div className="w-1/2 pr-4">
+              <h2 className="text-2xl font-bold mb-4">Code Nexa</h2>
+              <ul className="list-disc pl-5 mb-8">
+                <li className="mb-2">Dynamic Nature of Federated Learning (FL)</li>
+                <li className="mb-2">Continuous Model Integrity Verification</li>
+                <li className="mb-2">Protection Against MITM Attacks</li>
+              </ul>
+
+              <h2 className="text-2xl font-bold mb-4">Hydraguard</h2>
+              <ul className="list-disc pl-5 mb-8">
+                <li className="mb-2">Continuous attacks are more aggressive than single-shot attacks.</li>
+                <li className="mb-2">Detecting and Rejecting malicious weights leads to data loss, and data breaches and reduces module accuracy.</li>
+                <li className="mb-2">Existing defense mechanisms need big computational power and violate the essence of the FL.</li>
+                <li className="mb-2">Unreliable Predictions.</li>
+              </ul>
+
+              <h2 className="text-2xl font-bold mb-4">Secunid</h2>
+              <ul className="list-disc pl-5 mb-8">
+                <li className="mb-2">Existing defenses, such as distance-based metrics (e.g., Krum, Trimmed-Mean), struggle to detect sophisticated attacks where malicious updates resemble legitimate ones.</li>
+                <li className="mb-2">Attackers alter their local model updates during training, sending manipulated updates to the central server, which degrades the global model's accuracy and reliability.</li>
+                <li className="mb-2">Current methods usually require some knowledge of the attacks,</li>
+                <ul className="list-decimal pl-5 mb-2">
+                  <li className="mb-2">Malicious participant ratio</li>
+                  <li className="mb-2">Examining local datasets (compromise the privacy of participants)</li>
+                  <li className="mb-2">Assuming IID data</li>
+                </ul>
+              </ul>
+
+              <h2 className="text-2xl font-bold mb-4">SHIELD</h2>
+              <h3 className="text-lg font-semibold mb-2">Limited Defense Mechanisms:</h3>
+              <ul className="list-disc pl-5 mb-8">
+                <li className="mb-2">Current VFL security protocols are not robust enough to fully prevent label inference attacks, leading to potential data breaches.</li>
+                <li className="mb-2">Lack of scalable solutions that balance privacy and performance.</li>
+              </ul>
+
+              <h3 className="text-lg font-semibold mb-2">Insufficient Mitigation Strategies:</h3>
+              <ul className="list-disc pl-5 mb-8">
+                <li className="mb-2">Existing solutions may not effectively address all types of label inference attacks, especially sophisticated passive and active forms.</li>
+                <li className="mb-2">Existing methods for defending against label inference attacks in VFL are computationally expensive (e.g., Secure Multi-Party Computation).</li>
+                <li className="mb-2">Insufficient focus on lightweight mechanisms for privacy preservation in collaborative learning environments.</li>
+              </ul>
+            </div>
+
+            <div className="w-1/2 pl-4">
+                <video
+                controls
+                autoPlay
+                loop
+                muted
+                playsInline
+                className="mx-auto portrait-video w-full rounded-lg shadow-lg"
+                style={{ width: "300px", height: "auto" }}
+              >
+                <source src="/assets/videos/HackCNN.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
               </video>
             </div>
           </div>
