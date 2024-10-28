@@ -19,9 +19,7 @@ const AchievementsSection = () => {
 
         <div className="mt-8">
           <p className="text-2xl text-gray-700 leading-relaxed">
-            We were selected as finalists to represent Sri Lanka Institute of
-            Information Technology at the Une IEEE Unicon Awards 2024
-            and ICAC 2024.
+            Our research was selected for the IEEE UEMCON Awards 2024 conference, and we have already presented our paper at the event.
           </p>
         </div>
       </div>
