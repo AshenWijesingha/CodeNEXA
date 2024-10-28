@@ -55,7 +55,7 @@ const AchievementsSection = () => {
 
         <div className="mt-8">
           <p className="text-2xl text-gray-700 leading-relaxed">
-            Our research paper <b>Project ALVI</b> Privacy-Driven Defenses Federated Learning Security & Authentication was selected for the SNAMS 2024 conference, and we are now ready to present it at the event.
+            Our research paper <b>Project ALVI</b>: Privacy-Driven Defenses Federated Learning Security & Authentication was selected for the SNAMS 2024 conference, and we are now ready to present it at the event.
           </p>
         </div>
       </div>
