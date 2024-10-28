@@ -38,7 +38,7 @@ const teamMembers = [
     email: "renushabandara@gmail.com"
   },
   {
-    name: "Dr. Kanishka Yapa",
+    name: "Mr. Kanishka Yapa",
     role: "Supervisor | Lecturer",
     university: "Sri Lanka Institute of Information Technology",
     department: "Information Systems Engineering",

@@ -10,14 +10,14 @@ const downloadsData = [
   },
   {
     title: 'Progress Presentation 1',
-    date: '2021/02/25',
+    date: '2024/02/25',
     links: [
       { label: 'Group', url: 'https://docs.google.com/presentation/d/17OwTRtp7yKUQ2_xTu2HpLVUPyVwSTTSw/edit?usp=sharing&ouid=112929534540738972046&rtpof=true&sd=true' },
     ],
   },
   {
     title: 'Progress Presentation 2',
-    date: '2021/03/22',
+    date: '2024/03/22',
     links: [
       { label: 'Group', url: 'https://docs.google.com/presentation/d/1Ybwb47-MTZLOQxVBFJD28JGFRL2saiTn/edit?usp=sharing&ouid=112929534540738972046&rtpof=true&sd=true' },
     ],
@@ -34,7 +34,7 @@ const presentationsData = [
   },
   {
     title: '2. Status Document 1',
-    date: '2021/05/06',
+    date: '2024/05/06',
     links: [
       { label: 'Individual', url: 'https://drive.google.com/drive/folders/10L-StNyOQFzgzoxbJcgK4P8cwW_qC5H1?usp=sharing' },
     ],
