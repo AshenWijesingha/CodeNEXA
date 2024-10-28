@@ -90,20 +90,20 @@ const HeroSection = () => {
         A comprehensive framework to enhance security, reliability, and privacy in Federated Learning systems.
       </p>
       <div className="flex flex-wrap justify-center gap-4 mb-12">
-        <Button size="lg" className="bg-white text-2xl text-black hover:bg-gray-100">
           <a
           href="#documents"
-        >
+          ><Button size="lg" className="bg-white text-2xl text-black hover:bg-gray-100">
           Learn More
-        </a>
-        </Button>
-        <Button size="lg" className="bg-white text-2xl text-black hover:bg-gray-100">
+          </Button>
+          </a>
         <a
           href="#GetStarted"
         >
+          <Button size="lg" className="bg-white text-2xl text-black hover:bg-gray-100">
           Get Started
+          </Button>
         </a>
-        </Button>
+        
       </div>
     </div>
 
