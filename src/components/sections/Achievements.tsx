@@ -19,9 +19,11 @@ const AchievementsSection = () => {
 
         <div className="mt-8">
           <p className="text-2xl text-gray-700 leading-relaxed">
-            Our research was selected for the IEEE UEMCON Awards 2024 conference, and we have already presented our paper at the event.
+            Our research <b>CodeNEXA</b> was selected for the IEEE UEMCON Awards 2024 conference, and we have already presented our paper at the event.
           </p>
         </div>
+
+        <br />
 
         <div className="flex justify-center">
           <div className="text-center">
@@ -38,6 +40,8 @@ const AchievementsSection = () => {
             Our paper was selected for the ICAC 2024 conference, and we are now ready to present it at the conference.
           </p>
         </div>
+
+        <br />
 
         <div className="flex justify-center">
           <div className="text-center">
