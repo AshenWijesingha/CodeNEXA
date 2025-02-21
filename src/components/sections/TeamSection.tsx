@@ -2,7 +2,7 @@ import { Linkedin, Mail } from 'lucide-react';
 
 const teamMembers = [
   {
-    name: "B.L.H.D Peiris",
+    name: "B.L.H.D. Peiris",
     role: "Team Leader",
     university: "Sri Lanka Institute of Information Technology",
     department: "Information Systems Engineering",
