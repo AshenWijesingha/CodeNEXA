@@ -6,7 +6,7 @@ const teamMembers = [
     role: "Team Leader",
     university: "Sri Lanka Institute of Information Technology",
     department: "Information Systems Engineering",
-    image: "/assets/team/1.jpeg",
+    image: "/assets/team/1.png",
     linkedin: "https://www.linkedin.com/in/livindu-peiris-75247521b/",
     email: "livindupeiris@gmail.com"
   },
@@ -15,7 +15,7 @@ const teamMembers = [
     role: "Team Member",
     university: "Sri Lanka Institute of Information Technology",
     department: "Information Systems Engineering",
-    image: "/assets/team/2.jpeg",
+    image: "/assets/team/2.png",
     linkedin: "https://www.linkedin.com/in/aman-shaluka-009539244/",
     email: "amanshaluka1@gmail.com"
   },
