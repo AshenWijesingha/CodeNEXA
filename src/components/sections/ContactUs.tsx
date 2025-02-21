@@ -84,7 +84,7 @@ const ContactSection = () => {
                 <p className="text-xl text-gray-700 mb-4">
                   For further queries please reach us at{" "}
                   <a
-                    href="mailto:researchcoco@gmail.com"
+                    href="mailto:project.alvi@gmail.com"
                     className="text-blue-500 hover:underline"
                   >
                     project.alvi@gmail.com
