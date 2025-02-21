@@ -56,13 +56,13 @@ const teamMembers = [
     email: "samadhi.mathematica@gmail.com"
   },
   {
-    name: "Dr. Kasun Karunarathne",
-    role: "External Supervisor",
-    university: "PhD from the University of Colombo | MSc from the University of Moratuwa",
+    name: "Jayandra Wickramasinghe",
+    role: "Cybersecurity Consultant at EGUARDIAN",
+    university: "",
     department: "Technology Strategy and Cybersecurity",
     image: "/assets/team/7.png",
-    linkedin: "https://www.linkedin.com/in/kasun-karunarathne/",
-    email: "kasunsaranga@gmail.com"
+    linkedin: "https://www.linkedin.com/in/jayandra-wickramasinghe-5478431a0/",
+    email: "jayandra.wickramasinghe@eguardian.com"
   }
 ];
 
