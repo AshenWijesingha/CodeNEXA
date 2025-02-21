@@ -58,7 +58,7 @@ const teamMembers = [
   {
     name: "Jayandra Wickramasinghe",
     role: "Cybersecurity Consultant at EGUARDIAN",
-    university: "",
+    university: "Open University of sri lanka",
     department: "Technology Strategy and Cybersecurity",
     image: "/assets/team/7.png",
     linkedin: "https://www.linkedin.com/in/jayandra-wickramasinghe-5478431a0/",
